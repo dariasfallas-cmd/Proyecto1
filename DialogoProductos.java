@@ -23,9 +23,6 @@ public class DialogoProductos extends JDialog {
 	private JTextField textField_2;
 	private JTable table;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		try {
 			DialogoProductos dialog = new DialogoProductos();
@@ -36,9 +33,7 @@ public class DialogoProductos extends JDialog {
 		}
 	}
 
-	/**
-	 * Create the dialog.
-	 */
+	
 	public DialogoProductos() {
 		setBounds(100, 100, 450, 300);
 		getContentPane().setLayout(new BorderLayout());
